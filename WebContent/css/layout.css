@@ -1,0 +1,69 @@
+*{padding:0;margin:0}
+body { font-family:微软雅黑; }
+#container {margin:0 auto; width:100%;}
+/*头部*/
+#header { height:100px; background:#B2D3F5; margin-bottom:2px;}
+#header h3{padding:20px;font-size:30px;color:#7b8993}
+#header p{float:right;margin:-20px 20px 0 0;font-size:20px;}
+#header p a:hover{color:#009dff;}
+/*中部*/
+#mainContent { height:590px; margin-bottom:2px;}
+a{text-decoration:none;color:#000;}
+/*中间 内容*/
+#content { height:590px; background:#EFF7FF;position:relative;margin:10px auto}
+#content h3{height:60px;text-align:center;line-height:60px;}
+table, th, td {  border: 1px solid #B2D3F5; text-align:center;}
+.hehe:hover{background:#fff;}
+th { background:#B2D3F5; height:40px;}
+td { height:50px;}
+/*尾部*/
+#footer { height:60px; background:#B2D3F5; }
+#footer p { text-align:center; line-height:60px;}
+.selete{width: 100%;height: 60px;padding-top:20px;}
+.selete a,input[type="submit"],input[type="button"]{float:left;margin-left:30px;width:100px;height: 40px;background: #009dff;color:#fff;text-align:center;line-height:40px;border-radius:5px}
+.selete input ,select{	
+	margin-left:30px;
+	width: 100px;
+	height: 40px;
+	float: left;
+	text-align:center;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	border-radius:5px
+}
+.selete  input:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+	border-radius: 2px;
+}
+	
+	/*分页相关的*/
+.page{bottom:10px;left:20px;position:absolute;}
+	
+
+
+.page a{
+    float: left;
+    margin: 0 5px;
+    width: 50px;
+    height: 38px;
+    line-height: 38px;
+    text-align:center;
+    background: #3fbefa;
+    border: 1px solid #ebebeb;
+    color: #fff;
+    font-size: 14px;
+    border-radius:5px
+}
+
+.page a:hover {
+    color: #fff;
+    background: #009dff;
+}	
+	
+.hehe a{display:inline-block;width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align:center;background: #009dff;color:#fff;border-radius:5px}
+ .hehe a:hover{background: #3fbefa;}   	
